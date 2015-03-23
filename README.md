@@ -29,7 +29,7 @@ Gov and company site:
 
 http://empresas.identidadenlinea.com.ve/
 demo users:
-login: v17064628
+login: V17064628
 pass: cmr031185
 
 Video of the app
