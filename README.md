@@ -5,7 +5,6 @@ Summary
 Cloud System for sharing requirements for paperwork for institutions providing public services and private.  
  
 
-
 Full Description
 
 
@@ -29,7 +28,9 @@ http://personas.identidadenlinea.com.ve/
 Gov and company site:
 
 http://empresas.identidadenlinea.com.ve/
-
+demo users:
+login: v17064628
+pass: cmr031185
 
 Video of the app
 
