@@ -1,0 +1,37 @@
+.colaborador-cont {
+	/*border: dashed 1px red;*/
+	margin: 0 auto;
+	text-align: center;
+	top: 50px;
+	width: 85%;
+}
+
+.colaborador-cont > div {
+	/*background: #F5F7FA;
+	background: red;*/
+	display: inline-block;
+	margin: 10px;
+	height: auto;
+	padding: 15px;
+	transition: all .5s;
+	vertical-align: top;
+	width: 20%;
+}
+
+.colaborador-cont > div:hover {
+	background: #3BAFDA;
+	box-shadow: 0 4px 4px rgba(0,0,0,.15);
+	border-radius: 10px;
+}
+
+.colaborador-cont > div img {
+	border: solid 10px #4A89DC;
+	border-radius: 50%;
+	height: auto;
+	transition: all .5s;
+	width: auto;
+}
+
+.colaborador-cont > div:hover img {
+	border: solid 10px #F5F7FA;	
+}

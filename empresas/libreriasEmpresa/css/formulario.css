@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+.lbl_usuario {
+	display: inline-block;
+	text-align: right;
+	width: 100px;
+}
+
+.lbl_usuario2 {
+	display: inline-block;
+	text-align: right;
+	width: 150px;
+}
+
+.entrada {
+	width: 200px;
+}
+
+.formCorreo{
+	margin: 0 auto; 
+	width:500px; 
+	padding-top:50px;
+}
+
+.formCorreo div {
+	padding-top: 5px;
+}
+
+.txt_area {
+	width: 300px;
+	max-width: 500px;
+	max-height: 300px;
+	
+}

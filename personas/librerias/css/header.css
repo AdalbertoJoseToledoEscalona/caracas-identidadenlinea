@@ -1,0 +1,58 @@
+header {
+	background: #4A89DC;
+	height: 45px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 1000;
+}
+
+.logo-header {
+	background: #5D9CEC;
+	color: #FFF;
+	float: left;
+	font-weight: bold;
+	line-height: 45px;
+	padding: 0 20px;
+	width: 17.1%;
+}
+
+/* MENÚ HEADER */
+	.menu-header {
+		float: right;
+		line-height: 35px;
+		margin-top: 3px;
+		padding: 0 50px 0 0;
+	}
+
+	.menu-header > ul li {
+		display: inline-block;
+		list-style-type: none;
+	}
+
+	.menu-header > ul li a {
+		background: rgba(255,255,255,.1);
+		color: #FFF;
+		display: block;
+		font-size: 13px;
+		padding: 0 25px;
+		text-decoration: none;
+		transition: all .5s;
+	}
+
+	.menu-header > ul li a:hover {
+		background: rgba(255,255,255,.4);
+	}
+
+	.menu-header > ul li a span {
+		margin: 0 7px;
+	}
+
+/* MENÚ EMPRESAS */
+	.bg-empre {
+		background: #37BC9B;
+	}
+
+	.bg-empre > .logo-header {
+		background: #48CFAD;
+	}

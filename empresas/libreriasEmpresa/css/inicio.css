@@ -1,0 +1,100 @@
+.slider {
+	height: 80%;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.logo-id {
+	background: rgba(255,255,255,.8);
+	border-radius: 250px 0 0 250px;
+	padding: 10px 25px 10px 35px;
+	position: fixed;
+	right: 0;
+	top: 30px;
+	width: 300px;
+	z-index: 1000;
+}
+
+.log-reg {
+	/*border: dashed 1px red;*/
+	height: auto;
+	left: 75px;
+	position: absolute;
+	top: 0;
+	width: 400px;
+	z-index: 1500;
+}
+
+.login-empre, .reg-empre {
+	background: rgba(255,255,255,.9);
+	border: solid 1px #E6E9ED;
+	border-radius: 10px;
+	box-shadow: 0 4px 5px rgba(0,0,0,.4);
+	margin: 15px auto;
+	min-height: 150px;
+	padding: 10px;
+	text-align: center;
+}
+
+.login-empre h3, .reg-empre h3 {
+	border-bottom: solid 1px #CCD1D9;
+	margin: 0 auto 15px auto;
+	padding: 0 10px 5px 10px;
+	text-align: left;
+	width: 90%;
+}
+
+.login-empre > input, .reg-empre > input {
+	border: solid 1px #CCD1D9;
+	border-radius: 5px;
+	color: #434A54;
+	font-size: 14px;
+	margin: 5px auto;
+	outline: none;
+	padding: 7px 10px;
+	transition: all .5s;
+	width: 75%;
+}
+
+.login-empre > input:hover, .login-empre > input:focus, .reg-empre > input:hover, .reg-empre > input:focus {
+	border: solid 1px #8CC152;
+}
+
+.login-empre > input:focus, .reg-empre > input:focus {
+	border: solid 1px #8CC152;
+	box-shadow: 0 0 3px #8CC152;
+}
+
+.login-empre > input[type="submit"], .reg-empre > input[type="submit"] {
+	background: linear-gradient(#62942C,#8CC152);
+	background: -webkit-linear-gradient(#62942C,#8CC152);
+	background: -moz-linear-gradient(#62942C,#8CC152);
+	background: -ms-linear-gradient(#62942C,#8CC152);
+	background: -o-linear-gradient(#62942C,#8CC152);
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	transition: all .5s;
+	width: 81%;
+}
+
+.login-empre > input[type="submit"]:hover, .reg-empre > input[type="submit"]:hover {
+	background: linear-gradient(#ED5565,#DA4453);
+	background: -webkit-linear-gradient(#ED5565,#DA4453);
+	background: -moz-linear-gradient(#ED5565,#DA4453);
+	background: -ms-linear-gradient(#ED5565,#DA4453);
+	background: -o-linear-gradient(#ED5565,#DA4453);
+}
+
+.reg-empre > p {
+	color: #434A54;
+	font-size: 14px;
+	margin: -10px 0 10px 0;
+}
+
+.mensaje-form {
+	color: #DA4453;
+	font-size: 14px;
+	margin: 5px auto;
+}

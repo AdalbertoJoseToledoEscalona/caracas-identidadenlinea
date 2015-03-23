@@ -1,0 +1,79 @@
+.header-admin {
+	background: rgba(0,0,0,.1);
+	line-height: 19px;
+	padding: 5px 0;
+	position: fixed;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	z-index: 500;
+}
+
+.logo-admin {
+	/*border: dashed 1px red;*/
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width: 22%;
+}
+
+.nombre-login {
+	color: #FFF;
+	display: inline-block;
+	text-align: right;
+	width: 65%;
+}
+
+.menu-horizontal {
+	/*border: dashed 1px red;*/
+	display: inline-block;
+	text-align: right;
+	width: 65%;
+}
+
+.menu-horizontal ul li {
+	display: inline-block;
+	font-weight: 700;
+}
+
+.menu-horizontal ul li a {
+	color: #FFF;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: -4px;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+.menu-horizontal ul li a:hover {
+	background: rgba(255,255,255,.5);
+	background: #E9573F;
+}
+
+.menu-horizontal ul li a > span {
+	margin-right: 8px;
+}
+
+.menu-vertical {
+	background: #434A54;
+	height: 100%;
+	position: fixed;
+	top: 45px;
+	width: 60px;
+}
+
+.menu-vertical > a {
+	/*background: red;*/
+	color: #FFF;
+	float: left;
+	font-size: 20px;
+	padding: 20px;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+.menu-vertical > a:hover {
+	background: #DA4453;
+}

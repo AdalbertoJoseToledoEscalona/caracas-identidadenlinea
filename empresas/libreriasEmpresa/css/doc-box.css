@@ -1,0 +1,46 @@
+/* CAJA DE DOCUMENTOS */
+	.cont-doc > section {
+		border-bottom: solid 1px #CCD1D9;
+		min-height: 450px;
+		margin: 0 auto;
+		padding: 1% 1% 2% 1%;
+		text-align: center;
+		width: 98%;
+	}
+
+	.cont-doc > section:last-child {
+		border-bottom: none;
+	}
+
+	.cont-doc > section h2 {
+		border-bottom: solid 1px #E6E9ED;
+		margin-bottom: 20px;
+		padding-left: 1.5%;
+		text-align: left;
+	}
+
+	.cont-doc > section div {
+		background: #CCD1D9;
+		border: 5px solid #CCD1D9;
+		border-radius: 50%;
+		display: inline-block;
+		min-height: 100px;
+		margin: 1%;
+		padding: 40px;
+		text-align: center;
+		vertical-align: top;
+		min-width: 130px;
+	}
+
+	.cont-doc > section div p, .cont-doc > section div h3 {
+		color: #FFF;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.cont-doc > section div img {
+		height: 90px;
+		margin: 5px auto;
+		width: 90px;
+	}
+	

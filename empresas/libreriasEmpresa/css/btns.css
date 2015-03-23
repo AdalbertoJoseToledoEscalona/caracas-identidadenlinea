@@ -1,0 +1,13 @@
+.col04 > a {
+	background: #F5F7FA;
+	border-radius: 50%;
+	float: right;
+	margin: 5px 0 0 0 ;
+	padding: 10px 13px;
+	transition: all .5s;
+}
+
+.col04 > a:hover {
+	background: #DA4453;
+	color: #FFF;
+}

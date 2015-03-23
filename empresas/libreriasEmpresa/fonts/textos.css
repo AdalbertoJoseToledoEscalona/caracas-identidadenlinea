@@ -1,0 +1,160 @@
+/* NOTO SANS */
+	.mv li:hover ul li a {
+		font-family: 'noto';
+	}
+
+/* NOTO SANS BOLD */
+	header div h1 {
+		font-family: 'notobold';
+	}
+
+/* NOTO SANS ITALIC */
+	{
+		font-family: 'notoitalic';
+	}
+
+/* NOTO SANS BOLD ITALIC */
+	{
+		font-family: 'notobolditalic';
+	}
+
+/* OPEN SANS LIGHT */
+	body, form, input, select, textarea {
+		font-family: 'open';
+	}
+
+/* OPEN SANS LIGHT ITALIC */
+	h5 {
+		font-family: 'openlightitalic';
+	}
+
+/* OPEN SANS SEMI BOLD */
+	h1, h2, h3, th, b {
+		font-family: 'opensemibold';
+	}
+
+/* OPEN SANS SEMI BOLD ITALIC */
+	{
+		font-family: 'opensemibolditalic';
+	}
+
+/* OPEN SANS EXTRA BOLD  */
+	{
+		font-family: 'openextrabold';
+	}
+
+/* OPEN SANS EXTRA BOLD ITALIC */
+	{
+		font-family: 'openextrabolditalic';
+	}
+
+/* FONT-FACE GENERAL 'NOTO SANS' & 'OPEN SANS' */
+	@font-face {
+		font-family: 'open';
+		src: url('opensans-light.eot');
+		src: url('opensans-light.eot?#iefix') format('embedded-opentype'),
+				url('opensans-light.woff') format('woff'),
+				url('opensans-light.ttf') format('truetype'),
+				url('opensans-light.svg#open_sanslight') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'opensemibolditalic';
+		src: url('opensans-semibolditalic.eot');
+		src: url('opensans-semibolditalic.eot?#iefix') format('embedded-opentype'),
+				url('opensans-semibolditalic.woff') format('woff'),
+				url('opensans-semibolditalic.ttf') format('truetype'),
+				url('opensans-semibolditalic.svg#open_sanssemibold_italic') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'openlightitalic';
+		src: url('opensans-lightitalic.eot');
+		src: url('opensans-lightitalic.eot?#iefix') format('embedded-opentype'),
+				url('opensans-lightitalic.woff') format('woff'),
+				url('opensans-lightitalic.ttf') format('truetype'),
+				url('opensans-lightitalic.svg#open_sanslight_italic') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'opensemibold';
+		src: url('opensans-semibold.eot');
+		src: url('opensans-semibold.eot?#iefix') format('embedded-opentype'),
+				url('opensans-semibold.woff') format('woff'),
+				url('opensans-semibold.ttf') format('truetype'),
+				url('opensans-semibold.svg#open_sanssemibold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	@font-face {
+		font-family: 'openextrabold';
+		src: url('opensans-extrabold.eot');
+		src: url('opensans-extrabold.eot?#iefix') format('embedded-opentype'),
+				url('opensans-extrabold.woff') format('woff'),
+				url('opensans-extrabold.ttf') format('truetype'),
+				url('opensans-extrabold.svg#open_sansextrabold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'openextrabolditalic';
+		src: url('opensans-extrabolditalic.eot');
+		src: url('opensans-extrabolditalic.eot?#iefix') format('embedded-opentype'),
+				url('opensans-extrabolditalic.woff') format('woff'),
+				url('opensans-extrabolditalic.ttf') format('truetype'),
+				url('opensans-extrabolditalic.svg#open_sansextrabold_italic') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'noto';
+		src: url('notosans-regular.eot');
+		src: url('notosans-regular.eot?#iefix') format('embedded-opentype'),
+				url('notosans-regular.woff') format('woff'),
+				url('notosans-regular.ttf') format('truetype'),
+				url('notosans-regular.svg#noto_sansregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'notobolditalic';
+		src: url('notosans-bolditalic.eot');
+		src: url('notosans-bolditalic.eot?#iefix') format('embedded-opentype'),
+				url('notosans-bolditalic.woff') format('woff'),
+				url('notosans-bolditalic.ttf') format('truetype'),
+				url('notosans-bolditalic.svg#noto_sansbold_italic') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'notoitalic';
+		src: url('notosans-italic.eot');
+		src: url('notosans-italic.eot?#iefix') format('embedded-opentype'),
+				url('notosans-italic.woff') format('woff'),
+				url('notosans-italic.ttf') format('truetype'),
+				url('notosans-italic.svg#noto_sansitalic') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'notobold';
+		src: url('notosans-bold.eot');
+		src: url('notosans-bold.eot?#iefix') format('embedded-opentype'),
+				url('notosans-bold.woff') format('woff'),
+				url('notosans-bold.ttf') format('truetype'),
+				url('notosans-bold.svg#noto_sansbold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}

@@ -1,0 +1,25 @@
+.pasos {
+	text-align: center;
+}
+
+.pasos > div {
+	/*border: dotted 1px red;*/
+	background: #FFF;
+	border-radius: 10px;
+	display: inline-block;
+	min-height: 250px;
+	margin: 0 10px;
+	padding: 5px;
+	transition: all .5s;
+	vertical-align: top;
+	width: 27%;
+}
+
+.pasos > div:hover {
+	background: #F5F7FA;
+	box-shadow: 0 4px 4px rgba(0,0,0,.3);
+}
+
+.pasos > div img {
+	margin: 10px auto;
+}

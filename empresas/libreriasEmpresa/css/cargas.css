@@ -1,0 +1,61 @@
+.carga-doc {
+	/*border: dashed 1px red;*/
+	margin: 0 auto;
+	text-align: center;
+	top: 50px;
+	width: 85%;
+}
+
+.carga-doc > div {
+	background: #F5F7FA;
+	display: inline-block;
+	margin: 10px;
+	min-height: 185px;
+	padding: 15px;
+	transition: all .5s;
+	vertical-align: top;
+	width: 28.5%;
+}
+
+.carga-doc > div:hover {
+	box-shadow: 0 4px 4px rgba(0,0,0,.15);
+	border-radius: 10px;
+}
+
+.carga-doc > div img {
+	max-height: 100px;
+	width: 35%;
+}
+
+.carga-doc > div input[type="file"] {
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.carga-doc > div input {
+	border: solid 1px #E6E9ED;
+	margin: 5px auto;
+	outline: none;
+	padding: 1.5%;
+	width: 85%;
+}
+
+.paginas {
+	margin: 15px auto;
+	text-align: center;
+}
+
+.paginas > a {
+	background: #ED5565;
+	border-bottom: solid 3px #DA4453;
+	color: #FFF;
+	display: inline-block;
+	font-size: 14px;
+	padding: 5px 15px;
+	transition: all .5s;
+}
+
+.paginas > a:hover {
+	background: #DA4453;
+}

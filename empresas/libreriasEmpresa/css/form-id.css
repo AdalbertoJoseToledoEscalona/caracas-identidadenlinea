@@ -1,0 +1,85 @@
+/* BUSCAR POR CI */
+	.form-ci {
+		margin-bottom: 20px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.form-ci > input, .form-ci > select {
+		border: solid 1px #E6E9ED;
+		color: #434A54;
+		font-size: 16px;
+		outline: none;
+		padding: 15px;
+		text-align: center;
+		transition: all .5s;
+		vertical-align: middle;
+		width: 30%;
+	}
+
+	.form-ci > input:hover, .form-ci > input:focus, .form-ci > select:focus, .campo-codigo:hover, .campo-codigo:focus {
+		border: solid 1px #AAB2BD;
+	}
+
+	.form-ci > select {
+		margin-right:-5px;
+		padding: 16px;
+		width: 20%;
+	}
+
+	.form-ci > button, .lista > button, .lista > a {
+		background: #FFF;
+		border: solid 1px #AAB2BD;
+		color: #434A54;
+		font-size: 16px;
+		margin-left:-5px;
+		padding: 16.5px 30px;
+		text-decoration: none;
+		transition: all .5s;
+		vertical-align: middle;
+	}
+
+	.form-ci > button:hover, .lista > button:hover, .lista > a:hover {
+		background: #70A83B;
+		border: solid 1px #70A83B;
+		color: #FFF;
+	}
+
+	.form-ci > button span, .lista > button span, .lista > a span {
+		margin-right: 10px;
+	}
+
+/* LISTAS BOTÓN */
+	.lista > button {
+		margin-top: 20px;
+	}
+
+	.lista > button, .lista > a {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.lista > a {
+		margin: 20px 15px 0 0;
+		padding: 14px 30px;
+		transition: all .5s;
+	}
+
+/* CAMPOS */
+	.campo-buscar {
+		width: 20%;
+	}
+
+	.campo-codigo {
+		border: solid 1px #E6E9ED;
+		color: #434A54;
+		margin-left: 30px;
+		outline: none;
+		padding: 17px;
+		vertical-align: middle;
+		transition: all .5s;
+	}
+
+	.campo-codigo, .enviar-cod {
+		vertical-align: bottom;
+	}

@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+.filtro{
+	width: 100%;
+	text-align: center;
+}
+
+.reporte, .reporte th, .reporte td{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.reporte th{
+	white-space: nowrap;
+}
+
+.encabezado_reporte{
+	background-color: #88AAFF;
+}
+
+.impar{
+	background-color: #AACCFF;
+}
+
+.flecha_ordenar{
+	width: 20px;
+}

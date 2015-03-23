@@ -1,0 +1,22 @@
+.total-compras, .compras-directas, .compras-referidas {
+	border-radius: 7px;
+	padding: 20px;
+	transition: all .5s;
+}
+
+.total-compras:hover, .compras-directas:hover, .compras-referidas:hover {
+	box-shadow: 0 5px 4px rgba(0,0,0,.4);
+}
+
+.total-compras {
+	background: #3BAFDA;
+}
+
+.compras-directas {
+	background: #8CC152;
+}
+
+.compras-referidas {
+	background: #F6BB42;
+	color: #000;
+}

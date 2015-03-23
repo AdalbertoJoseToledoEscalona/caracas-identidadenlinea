@@ -1,0 +1,27 @@
+.container{
+    z-index: 100;
+    vertical-align: middle;
+}
+
+.container img{
+    width: 44px;
+    height: 44px;
+}
+
+.container p{
+    cursor: pointer;
+}
+
+.container h3{
+    min-height: 3em;
+}
+.over{
+	-webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+}
+
+.carga{
+    background-color: #efefef;
+    display: none;
+}
+

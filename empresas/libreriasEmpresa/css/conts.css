@@ -1,0 +1,24 @@
+.cont-all, .cont-menu, .cont-doc {
+	bottom: 0;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+.cont-menu, .cont-doc {
+	overflow-x: none;
+	overflow-y: auto;
+	padding: 1.5%;
+	height: 93%;
+	width: 20.1%;
+}
+
+.cont-menu {
+	border-right: solid 1px #CCD1D9;
+	background: #FFF;
+}
+
+.cont-doc {
+	right: 0;
+	width:79.8%;
+}

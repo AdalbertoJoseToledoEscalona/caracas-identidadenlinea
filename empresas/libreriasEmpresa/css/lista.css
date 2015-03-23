@@ -1,0 +1,139 @@
+/* RESULTADO TWITTER */
+	.box-user {
+		border: solid 1px #AAB2BD;
+		border-radius: 5px;
+		min-height: 70px;
+		margin: 5px auto;
+		padding: 5px;
+		transition: all .5s;
+		width: 95%;
+	}
+
+	.box-user:hover {
+		background: #FFF;
+	}
+
+	.box-user > img, .box-user > p {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.box-user > img {
+		border-radius: 3px;
+		margin-right: 10px;
+	}
+
+	.box-user > p {
+		font-size: 14px;
+	}
+
+	.box-user > p strong {
+		font-size: 30px;
+	}
+
+	.box-user > p span {
+		margin: 0 7px 0 10px;
+	}
+
+	.box-user > p a {
+		color: #70A83B;
+		text-decoration: none;
+		transition: all .5s;
+	}
+
+	.box-user > p a:hover {
+		color: red;
+	}
+
+/* LISTAS */
+	.lista {
+		margin: 15px 0;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+	.lista > div {
+		background: #FFF;
+		border: solid 1px #AAB2BD;
+		border-radius: 50%;
+		display: inline-block;
+		margin: 5px;
+		padding: 10px 13px;
+		text-align: center;
+		transition: all .5s;
+	}
+
+	.lista > div img {
+		height: 30px;
+		opacity: .5;
+		width: 30px;
+		transition: all .5s;
+	}
+
+	.lista > div:hover {
+		background: #70A83B;
+		border: solid 1px #70A83B;
+	}
+
+	.lista > div:hover img {
+		opacity: .9;
+	}
+
+/* TOOLTIP LISTA */
+	.tooltip-lista {
+		position: relative;
+		transition: all .5s;
+		z-index: 1000px;
+	}
+
+	.tooltip-lista span {
+		background: black;
+		border-radius: 10px;
+		color: #FFF;
+		display: none;
+		height: auto;
+		left: -60px;
+		padding: 5px 10px;
+		position: absolute;
+		text-align: center;
+		top: 60px;
+		min-width: 150px !important;
+	}
+
+	.tooltip-lista:hover {
+		z-index: 1000;
+	}
+
+	.tooltip-lista:hover span {
+		display: block;
+	}
+
+/* PAGINACIÓN */
+	.paginas {
+		margin-top: 25px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.paginas ul li {
+		display: inline-block;
+		list-style-type: none;
+		margin: 0 3px;
+	}
+
+	.paginas ul li a {
+		background: #FFF;
+		border: solid 1px #AAB2BD;
+		color: #434A54;
+		display: block;
+		font-size: 14px;
+		padding: 5px 15px;
+		text-decoration: none;
+		transition: all .5s;
+	}
+
+	.paginas ul li a:hover {
+		background: #70A83B;
+		border: solid 1px #70A83B;
+		color: #FFF;
+	}

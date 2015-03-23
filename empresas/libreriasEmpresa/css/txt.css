@@ -1,0 +1,52 @@
+h2 {
+	color: #E9573F;
+	margin: 0 auto 20px auto;
+	width: 90%;
+}
+
+h3 {
+	font-size: 18px;
+	margin: 5px 0;
+}
+
+p {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.color-white {
+	color: #FFF;
+}
+
+.color-434A54 {
+	color: #434A54;
+}
+
+.titles {
+	color: #FFF;
+	font-size: 40px;
+	margin-top: 170px;
+}
+
+.separadorSpan {
+	bottom: 5px;
+	color: #FFF;
+	font-size: 35px;
+	position: relative;
+}
+
+.imageIcon {
+	font-size: 130px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.num-big {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.num-big-2 {
+	font-size: 40px;
+	font-weight: bold;
+}

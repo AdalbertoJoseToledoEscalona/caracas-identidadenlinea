@@ -1,0 +1,43 @@
+header {
+	background: rgba(0,0,0,.1);
+	line-height: 15px;
+	padding: 5px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 500;
+}
+
+nav {
+	/*border: dashed 1px red;*/
+	display: inline-block;
+	text-align: right;
+	width: 65%;
+}
+
+nav ul li {
+	display: inline-block;
+	font-weight: 700;
+}
+
+nav ul li a {
+	color: #FFF;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: -4px;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+nav ul li a:hover {
+	background: rgba(255,255,255,.5);
+}
+
+.logo {
+	/*border: dashed 1px red;*/
+	display: inline-block;
+	text-align: left;
+	width: 22%;
+}
+

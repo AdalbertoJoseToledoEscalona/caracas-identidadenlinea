@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+.error {
+	background-color: #FFCCCC;
+	border-left-color: red;
+	border-left-style: solid;
+	border-left-color-ltr-source: physical !important;
+	border-left-color-rtl-source: physical !important;
+	color: #880000;
+	visibility: hidden;
+	text-align: center;
+}
+
+.exito {
+	background-color: lime;
+	border-left-color: green;
+	border-left-style: solid;
+	border-left-color-ltr-source: physical !important;
+	border-left-color-rtl-source: physical !important;
+	color: blue;
+	visibility: hidden;
+	text-align: center;
+}

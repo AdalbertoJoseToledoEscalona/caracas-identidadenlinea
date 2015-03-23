@@ -1,0 +1,9 @@
+	var cargando = "Loading";
+	var el_campo = "The field";
+	var es_requerido = "is required";
+	var mensaje_email_invalido = "invalid email";
+	var titulo_errores_formulario = "The form has the following errors:";
+	var error_validar_imagen_parte1 = "el formato de la imagen del campo";
+	var error_validar_video_parte1 = "Error: el formato del video del campo";
+	var error_validar_archivo_parte1 = "Error: el formato del campo";
+	var error_validar_archivo_parte2 = "puede ser uno de los siguientes:";

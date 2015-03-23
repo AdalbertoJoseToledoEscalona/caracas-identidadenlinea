@@ -1,0 +1,16 @@
+html, body, header, .cont-menu, .cont-all, .cont-doc {
+	box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1469px) {
+}
+
+@media screen and (min-width: 501px) and (max-width: 799px) {
+}
+
+@media screen and (max-width: 500px) {
+}

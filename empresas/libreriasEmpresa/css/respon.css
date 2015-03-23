@@ -1,0 +1,57 @@
+html, body, header, .cont-menu, .cont-all, .cont-doc, .form-ci, .campo-buscar, .campo-codigo, .enviar-cod, .menu-header, .bg-empre, .box-user, .lista, .tooltip-lista, .paginas {
+	box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1469px) {
+}
+
+@media screen and (min-width: 501px) and (max-width: 799px) {
+	.cont-menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	header {
+		height: auto;
+	}
+
+	.cont-menu {
+		display: none;
+	}
+
+	.logo-header {
+		font-size: 12px;
+		width: 60%;
+	}
+
+	.menu-header {
+		text-align: center;
+		margin: 0;
+		padding:;
+		width: 40%;
+	}
+
+	.menu-header > ul li {
+		display: inline-block;
+	}
+
+	.menu-header > ul li a {
+		display: block;
+		font-size: 12px;
+		padding: 3px 11px;
+		text-align: center;
+	}
+
+	.menu-header > ul li a span {
+		display: none;
+	}
+
+	.cont-doc {
+		width: 100%;
+	}
+}

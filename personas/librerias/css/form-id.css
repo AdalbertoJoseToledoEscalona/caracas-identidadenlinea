@@ -1,0 +1,64 @@
+/* BUSCAR POR CI */
+	.form-ci {
+		margin-bottom: 20px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.form-ci > input, .form-ci > select {
+		border: solid 1px #E6E9ED;
+		color: #434A54;
+		font-size: 16px;
+		outline: none;
+		padding: 15px;
+		text-align: center;
+		vertical-align: middle;
+		width: 30%;
+	}
+
+	.form-ci > select {
+		margin-right:-5px;
+		padding: 16px;
+		width: 20%;
+	}
+
+	.form-ci > button, .lista > button, .lista > a {
+		background: #ED5565;
+		border-bottom: solid 5px #DA4453;
+		color: #FFF;
+		font-size: 16px;
+		margin-left:-4px;
+		padding: 15px 30px;
+		text-decoration: none;
+		transition: all .5s;
+		vertical-align: middle;
+	}
+
+	.form-ci > button:hover, .lista > button:hover, .lista > a:hover {
+		background: #DA4453;
+	}
+
+	.form-ci > button span, .lista > button span, .lista > a span {
+		margin-right: 10px;
+	}
+
+/* LISTAS BOTÓN */
+	.lista > button {
+		margin-top: 20px;
+	}
+
+	.lista > button, .lista > a {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.lista > a {
+		margin: 20px 15px 0 0;
+		padding: 14px 30px;
+		transition: all .5s;
+	}
+
+/* CAMPO BUSCAR */
+	.campo-buscar {
+		width: 80%;
+	}

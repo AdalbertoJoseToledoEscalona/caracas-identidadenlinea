@@ -1,0 +1,109 @@
+.login {
+	background: rgba(0,0,0,.8);
+	border-radius: 8px;
+	box-shadow: 0 3px 5px rgba(0,0,0,.5);
+	height: auto;
+	margin: 0 auto;
+	padding: 1.5%;
+	position: relative;
+	text-align: center;
+	top: 120px;
+	width: 40%;
+}
+
+.login > input {
+	/*border: dashed 1px red;*/
+	display: inline-block;
+	margin: 10px 0;
+	padding: 8px;
+	vertical-align: middle;
+	width: 60%;
+}
+
+.login > label {
+	/*border: dashed 1px red;*/
+	color: #FFF;
+	display: inline-block;
+	margin: 10px 0;
+	vertical-align: middle;
+	width: 30%;
+}
+
+button {
+	background: #ED5565;
+	border-bottom: solid 3px #DA4453;
+	color: #FFF;
+	font-size: 16px;
+	margin: 15px 5px 0 5px;
+	padding: 10px 25px;
+	transition: all .5s;
+}
+
+button > span {
+	margin-right: 8px;
+}
+
+button:hover {
+	background: #DA4453;
+	color: #FFF;
+}
+
+/* FORMULARIO ADMIN */
+.form-ingreso {
+	height: 600px;
+	margin: 15px auto;
+	text-align: center;
+	width: 95%;
+}
+
+.form-ingreso > input, .form-ingreso > select {
+	border: solid 1px #E6E9ED;
+	display: inline-block;
+	margin: 3px auto;
+	outline: none;
+	padding: 5px;
+	transition: all .5s;
+	vertical-align: middle;
+	width: 70%;
+}
+
+.form-ingreso > select {
+	width: 72%;
+}
+
+.form-ingreso > input:hover {
+	border: solid 1px #3BAFDA;
+}
+
+.form-ingreso > label {
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px auto;
+	text-align: left;
+	vertical-align: middle;
+	width: 27%;
+}
+
+.campo-buscar, select {
+	border: solid 1px #E6E9ED;
+	margin-right: -10px;
+	/*overflow-x: none;
+	overflow-y: auto;*/
+	outline: none;
+	padding: 11px;
+	width: 30%;
+}
+
+select {
+	margin-right: -5px;
+	padding: 10px;
+}
+
+.campo-buscar, button {
+	vertical-align: bottom;
+}
+
+.buscar > .lista div input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+}

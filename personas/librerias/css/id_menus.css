@@ -1,0 +1,66 @@
+/* LOGO CENTRADO */
+	.logo-menu {
+		color: #4A89DC;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.name-user {
+		font-size: 15px;
+		padding: 0 0 10px 0;
+		text-align: center;
+	}
+
+/* MENÚ VERTICAL */
+	.menu-vertical > ul {
+		border-bottom: solid 1px #E6E9ED;
+		border-top: solid 1px #E6E9ED;
+		padding: 10px 0;
+	}
+
+	.menu-vertical > ul li {
+		list-style-type: none;
+	}
+
+	.menu-vertical > ul li a {
+		color: #656D78;
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+		transition: all .5s;
+		vertical-align: top;
+	}
+
+	.menu-vertical > ul li a:hover {
+		background: rgba(79,193,233,.2);
+	}
+
+	.menu-vertical.menu-vertical > ul li a span {
+		color: #4FC1E9;
+		font-size: 20px;
+		margin: 0 10px;
+		vertical-align: top;
+	}
+
+/* ARBOLITO - HUELLA ARBOL */
+.arbol, .co2 {
+	border-bottom: solid 1px #E6E9ED;
+	border-top: solid 1px #E6E9ED;
+	margin: 10px auto;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.arbol > p, .co2 > p {
+	font-size: 30px;
+	margin: 0 auto 10px auto;
+}
+
+.arbol > img {
+	height: 100px;
+	width: 100px;
+}
+
+.co2 {
+	border-top: none;
+}
